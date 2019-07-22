@@ -10,10 +10,10 @@ const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
 
 Add JavaScript so that:
 
-- on page load
-- fetch the images using the url above ⬆️
-- parse the response as `JSON`
-- add image elements to the DOM **for each**🤔 image in the array
+<!-- - on page load
+- fetch the images using the url above ⬆️ -->
+<!-- - parse the response as `JSON`
+- add image elements to the DOM **for each**🤔 image in the array -->
 
 ---
 
@@ -25,8 +25,8 @@ const breedUrl = 'https://dog.ceo/api/breeds/list/all'
 
 After the first challenge is completed, add JavaScript so that:
 
-- on page load, fetch all the dog breeds using the url above ⬆️
-- add the breeds to the page in an `<ul>` (take a look at the included `index.html`)
+<!-- - on page load, fetch all the dog breeds using the url above ⬆️
+- add the breeds to the page in an `<ul>` (take a look at the included `index.html`) -->
 
 ---
 
