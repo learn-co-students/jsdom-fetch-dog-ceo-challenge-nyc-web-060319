@@ -3,8 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Intro to AJAX Practice Tasks</title>
-    <script src="src/index.js" charset="utf-8"></script>
+    <script src="src/index.js" charset="utf-8" defer></script>
+    <style type="text/css">
+      li {
+        list-style: none;
+        color: darkviolet;
+      }
+  
+      li:before {
+        /* For a round bullet */
+        content:'\2022';
+        /* For a square bullet */
+        /*content:'\25A0';*/
+        display: block;
+        position: relative;
+        max-width: 0px;
+        max-height: 0px;
+        left: -10px;
+        top: -0px;
+        color: darkmagenta;
+        font-size: 20px;
+      }
+    </style>
+  
+  
   </head>
+
+
+
+
   <body>
     <h1>Dog CEO</h1>
 
@@ -19,6 +46,7 @@
       <option value="b">b</option>
       <option value="c">c</option>
       <option value="d">d</option>
+      <!-- <input type="submit" value="Submit"> -->
     </select>
 
     <ul id="dog-breeds">
